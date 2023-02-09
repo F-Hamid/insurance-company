@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  outline: none;
+  background-color: #fefbf6;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
