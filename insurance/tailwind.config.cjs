@@ -4,15 +4,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      primary: "#2182D9",
-      secondary: "#6C00FF",
-      tertiary: "#ff49db",
+      primary: "#3AB0FF",
+      secondary: "#FFB562",
+      tertiary: "#F87474",
       text: "#1A0000",
       lightText: "#0A2647",
       lightBlue: "#39B5E0",
       "gray-dark": "#273444",
       gray: "#8492a6",
-      bkg: "#fefbf6",
+      bkg: "#eee",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
