@@ -15,8 +15,8 @@ module.exports = {
       bkg: "#F9F2ED",
     },
     fontFamily: {
-      sans: ["Graphik", "sans-serif"],
-      serif: ["Merriweather", "serif"],
+      sans: ["Lato", "sans-serif"],
+      serif: ["Roboto", "serif"],
     },
     extend: {
       spacing: {
