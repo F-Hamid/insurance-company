@@ -1,6 +1,7 @@
 import NavBar from "../components/Nav";
 import blob from "../images/blob.png";
 import lady from "../images/lady.png";
+import heartBeat from "../images/hreat-beat.png";
 
 const Home = (): JSX.Element => {
   return (
@@ -8,18 +9,25 @@ const Home = (): JSX.Element => {
       <NavBar />
 
       <div className="main center w-full h-full   ">
-        <div className="header mt-28 px-3 w-1/2 h-full flex justify-center items-start flex-col text-start p-24 ">
-          <h1 className="title w-2/3 mb-12 text-7xl text-text font-serif">
+        <div className="header mt-8  w-1/2 h-full flex justify-center items-start flex-col text-start p-4 pl-36 relative ">
+          <h1 className="title w-4/5 mb-16 ml-24 text-7xl text-text font-serif">
             Insure Your Happiness with a Smile
           </h1>
-          <p className="description text-text text-3xl w-2/3 font-sans">
+          <p className="description text-text text-3xl w-4/5 ml-24 font-sans">
             Empower You with Trust and Peace of Mind with Us, Together, we
             protect what matters most to you, so you can enjoy life's little
             moments without worry.
           </p>
+
+          <div className="centerBar absolute opacity-50 -top-36 right-16 -z-10  w-9 h-[120rem] bg-primary  rotate-45 origin-top"></div>
+          <img
+            src={heartBeat}
+            className="w-2/4 -bottom-4 -right-64 absolute -rotate-45 animate-pulse"
+            alt="heartBeat"
+          />
           <button
             type="button"
-            className="bg-secondary text-3xl text-text rounded-md p-4 px-8 mt-24 transition duration-500 ease select-none hover:bg-cta focus:outline-none focus:shadow-outline"
+            className="bg-secondary text-3xl text-text rounded-md p-4 px-8 ml-24 mt-16 translate-y-20 transition duration-500 ease select-none hover:bg-cta focus:outline-none focus:shadow-outline"
           >
             Discover
           </button>
@@ -35,9 +43,10 @@ const Home = (): JSX.Element => {
             src={lady}
             alt="lady"
           />
-          <div className="leftBar absolute top-6 -right-72 -z-10  w-9 h-[120rem] bg-primary  rotate-45 origin-top"></div>
+          <div className="rightBar absolute top-6 -right-72 -z-10  w-9 h-[120rem] bg-primary  rotate-45 origin-top"></div>
         </div>
-        <div className="leftBar absolute -top-24 -z-10 left-16 w-9 h-[32rem] bg-primary rotate-45"></div>
+
+        <div className="leftBar absolute -top-24 -z-10 left-16 w-9 h-[32rem] bg-cta  rotate-45"></div>
       </div>
     </section>
   );

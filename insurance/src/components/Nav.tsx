@@ -2,23 +2,13 @@ import logo from "../images/logo.png";
 
 const Nav = (): JSX.Element => {
   return (
-    <div className="navbar w-full  absolute left-0 top-0 py-8  mx-0 flex items-center justify-between">
-      <ul className="item-container h-2/3 flex justify-start ml-16 ">
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold hover:bg-secondary py-3 px-4 rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4 rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
+    <div className="navbar w-full  absolute left-0 top-0 py-8  pl-28 flex items-center justify-between">
+      <ul className="item-container h-2/3 flex text-2xl font-bold  justify-start ml-16 ">
+        <li className="navItem  ">Item</li>
+        <li className="navItem  ">Item</li>
+        <li className="navItem  ">Item</li>
+        <li className="navItem  ">Item</li>
+        <li className="navItem  ">Item</li>
       </ul>
       <img
         src={logo}
