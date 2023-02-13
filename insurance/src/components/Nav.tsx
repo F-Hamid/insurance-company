@@ -1,20 +1,34 @@
-import logo from "../images/logo.png";
+import {
+  GrHomeOption,
+  GrServices,
+  GrCircleQuestion,
+  GrContact,
+} from "react-icons/gr";
 
 const Nav = (): JSX.Element => {
   return (
-    <div className="navbar w-full  absolute left-0 top-0 py-8  pl-28 flex items-center justify-between">
-      <ul className="item-container h-2/3 flex text-2xl font-bold  justify-start ml-16 ">
-        <li className="navItem  ">Item</li>
-        <li className="navItem  ">Item</li>
-        <li className="navItem  ">Item</li>
-        <li className="navItem  ">Item</li>
-        <li className="navItem  ">Item</li>
+    <div className="navbar h-full  fixed left-0 top-0 p-2  bg-secondary z-50">
+      <ul className="item-container h-full  text-2xl font-bold flex-col ">
+        <li className="navItem flex justify-start items-center  ">
+          <GrHomeOption className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl ">Home</h3>
+        </li>
+
+        <li className="navItem flex justify-start  items-center ">
+          <GrServices className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">Services</h3>
+        </li>
+
+        <li className="navItem flex justify-start  items-center   ">
+          <GrCircleQuestion className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">About</h3>
+        </li>
+
+        <li className="navItem flex justify-start  items-center   ">
+          <GrContact className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">Contact Us</h3>
+        </li>
       </ul>
-      <img
-        src={logo}
-        className="logo w-36 absolute  top-4 right-12 "
-        alt="company logo"
-      />
     </div>
   );
 };

@@ -9,9 +9,9 @@ module.exports = {
       cta: "#F87474",
       text: "#161C3D",
       lightText: "#3D3C42",
-      lightBlue: "#39B5E0",
+      lightBlue: "#7ac8f6",
       "gray-dark": "#273444",
-      gray: "#8492a6",
+      gray: "#8da9d0",
       bkg: "#F9F2ED",
     },
     fontFamily: {
@@ -26,6 +26,9 @@ module.exports = {
       borderRadius: {
         "4xl": "2rem",
       },
+      // boxShadow: {
+      //   perso: "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+      // },
     },
   },
 };
