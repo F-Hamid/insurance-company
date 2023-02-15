@@ -7,7 +7,7 @@ const Home = (): JSX.Element => {
       <NavBar />
 
       <div className="main center w-full h-full  ">
-        <div className="header w-1/2 h-full ">header</div>
+        <div className="header w-1/2 h-full git">header</div>
         <div className="photo w-1/2 h-full relative">
           <img className="w-[38rem]  absolute top-56 left-56" src={blob} alt="blob" />
         </div>
