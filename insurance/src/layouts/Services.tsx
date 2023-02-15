@@ -3,10 +3,10 @@ import Service from "../components/Service";
 
 const Services = (): JSX.Element => {
   return (
-    <section className="services w-full relative h-screen bg-primary center parallax">
-      <div className="services-main w-full h-full grid grid-cols-2 gap-1 place-items-center ">
+    <section className="services w-full relative  p-16 pt-32 bg-primary center parallax">
+      <div className="services-main w-full h-full p-12 grid grid-cols-2 gap-20 place-items-center ">
         <div className="service w-2/3 h-2/3 center p-1  ">
-          <p className="service-text text-bkg font-sans text-2xl">
+          <p className="service-text text-bkg font-sans text-2xl pr-28">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi fuga
             officiis repellendus eum quas debitis pariatur aperiam quo vero
             odit.

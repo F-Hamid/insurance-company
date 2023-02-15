@@ -10,13 +10,14 @@ module.exports = {
       text: "#161C3D",
       lightText: "#3D3C42",
       lightBlue: "#7ac8f6",
-      "gray-dark": "#273444",
-      gray: "#8da9d0",
+      "gray-dark": "#A2B5BB",
+      gray: "#CFD2CF",
       bkg: "#F9F2ED",
     },
     fontFamily: {
       sans: ["Lato", "sans-serif"],
       serif: ["Roboto", "serif"],
+      perso: ["Aleo", "serif"],
     },
     extend: {
       spacing: {

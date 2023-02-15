@@ -1,4 +1,5 @@
 import NavBar from "./components/Nav";
+import About from "./layouts/About";
 import Home from "./layouts/home";
 import Services from "./layouts/Services";
 
@@ -8,6 +9,7 @@ function App() {
       {/* <NavBar /> */}
       <Home />
       <Services />
+      <About />
     </div>
   );
 }

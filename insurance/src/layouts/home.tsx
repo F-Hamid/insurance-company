@@ -9,7 +9,7 @@ const Home = (): JSX.Element => {
     <section className="w-screen h-screen flex-col relative overflow-hidden ">
       <div className="main center w-full h-full   ">
         <div className="header  mt-8  w-1/2 h-full flex justify-center items-start flex-col text-start p-4 pl-36 relative ">
-          <h1 className="title w-4/5 mb-16   ml-24 text-7xl text-text font-serif">
+          <h1 className="title w-4/5 mb-16   ml-24 text-7xl text-text font-perso">
             Insure Your Happiness with a Smile
           </h1>
           <p className="description text-text text-3xl w-4/5 ml-24 font-sans">
