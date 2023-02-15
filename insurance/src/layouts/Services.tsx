@@ -12,11 +12,11 @@ const Services = (): JSX.Element => {
             odit.
           </p>
         </div>
-        <Service icon="fa-solid fa-plane-circle-check rotate-45" />
         <Service icon="fa-solid fa-business-time" />
-        <Service icon="fa-sharp fa-solid fa-igloo" />
+        <Service icon="fa-solid fa-house-lock" />
         <Service icon="fa-solid fa-people-roof" />
         <Service icon="fa-solid fa-heart-pulse" />
+        <Service icon="fa-solid fa-plane-circle-check rotate-45" />
         {/* <div className="service w-2/3 h-2/3 border-bkg border-2 p-2 ">
           <GiCommercialAirplane className="service-icon text-bkg text-[6rem] " />
           <p className="service-text text-bkg font-sans text-2xl">
