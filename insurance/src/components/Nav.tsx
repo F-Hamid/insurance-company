@@ -1,26 +1,34 @@
-import logo from "../images/logo.png";
+import {
+  GrHomeOption,
+  GrServices,
+  GrCircleQuestion,
+  GrContact,
+} from "react-icons/gr";
 
 const Nav = (): JSX.Element => {
   return (
-    <div className="navbar w-full  absolute left-0 top-0 p-2  mx-0 flex justify-between">
-      <ul className="item-container center justify-start ml-16 ">
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold hover:bg-secondary py-3 px-4 rounded-md ease-in-out duration-500 ">
-          Item
+    <div className="navbar h-full  fixed left-0 top-0 p-2  bg-secondary z-50">
+      <ul className="item-container h-full  text-2xl font-bold flex-col ">
+        <li className="navItem flex justify-start items-center  ">
+          <GrHomeOption className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl ">Home</h3>
         </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
+
+        <li className="navItem flex justify-start  items-center ">
+          <GrServices className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">Services</h3>
         </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
+
+        <li className="navItem flex justify-start  items-center   ">
+          <GrCircleQuestion className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">About</h3>
         </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4  rounded-md ease-in-out duration-500 ">
-          Item
-        </li>
-        <li className="navItem mx-6 cursor-pointer text-xl font-semibold  hover:bg-secondary py-3 px-4 rounded-md ease-in-out duration-500 ">
-          Item
+
+        <li className="navItem flex justify-start  items-center   ">
+          <GrContact className="text-5xl mr-2" />
+          <h3 className="nav-title mx-2 text-3xl">Contact Us</h3>
         </li>
       </ul>
-      <img src={logo} className="logo w-20 h-20 mr-4" alt="company logo" />
     </div>
   );
 };
